@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    line-height: 1.7em;
+    margin:0%;
+    padding: 0%;
+}
+.containerImg {
+    background-color: #ED3030; /* Fondo rojo para el contenedor */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    width: 100%; /* Ancho del contenedor */
+    height: 40%; /* Altura del contenedor */
+  }
+  .containerImg img {
+    width: 70%;
+  }
+.sidebar {
+    background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    display: block;
+  }
+  .sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.main {
+    margin-left: 200px; /* Mismo ancho que el sidebar */
+    padding: 20px;
+  }
+/*-----------------------------------------------------------------------------------*/  
+/* Oculta el elemento por defecto */
+.contactoHeader{
+    border: none;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    display: none;
+}
+
+.item-nav{
+    display: none;
+    
+}
+
+/* estilos para dispositivos de 900 hacia abajo */
+/* elementos del header */
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 40px 56px;
+    width: 100%;
+}
+
+.navHambur{
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.navHambur span{
+    background: black;
+    height: 3px;
+    margin: 12%;
+    width: 46px;
+}
+/* container1 */
+
+.container1{
+    padding: 24px 40px 40PX;
+}
+
+.deportista{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    width: 400px;
+}
+
+h1{
+    color: #242E53;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.25em;
+}
+
+.live{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.live p{
+    font-size: 18px;
+    font-weight: 700;    margin: 20px 0px 20px 0px;
+}
+
+.contacto1, .contactoHeader, .More, .goFor{
+    background-color:#8B48BF;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 134px;
+}
+/* Container 2 y 5*/
+
+.container2, .container5{
+    background-color: #3CDDF3 ;
+    color: white;
+}
+
+.parrafoEscritorio{
+    display: none;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 306px;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+.container2 h2{
+    font-size: 2.25em;
+    font-weight: 700px;
+    line-height: 1.25em;
+}
+
+.container2 p{
+    padding-right: 20px;
+}
+
+/* .container5 */
+.container5{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 366px;
+    justify-content: space-around;
+    padding: 40px 50px;   
+    text-align: center;
+
+}
+
+.container5 h2{
+    font-size: 40px;
+}
+
+.goFor{
+    background-color: #232C50;
+    color: white;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Container 3 */
+
+.container3{
+    color: #B3B2B7;
+    margin: 65px 0px 65px 34px;
+}
+
+.numeracion{
+    background-color:hsl(274, 48%, 52%);
+    color: white;
+    border-radius: 30px;
+    height: 43px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    width: 70px;
+    z-index: 2;
+}
+
+.container3 h3{
+    background-color:RGB(139, 72,191,30%);
+    color: #323851;
+    height: 43px;
+    margin-left: 35px;
+    padding: 10px;
+    padding-left: 53px;
+    
+}
+
+.texto{
+    margin: 21px 17px 10px 0px;
+    padding: 10px;
+}
+
+/* Container 4 */
+
+.container4{
+    color: #B9B9C1;
+    margin: 58px 18px;
+    text-align: center;
+}
+
+/* ocultar la dos ultimas tarjetas */
+.ocultar{
+    display:none;
+}
+
+/* Titulo */
+
+.container4 h2{
+    color: #242E53;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.container4 h4{
+    color: #3F4868;
+    padding-bottom: 21px;
+}
+
+.fotoPerfil{
+    bottom: 33px;
+    border-radius: 50%;
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+
+.container4 article{
+    background-color: #FAFAFA;
+    margin: 45px 0px;
+    padding: 10px;
+}
+
+/* Boton */
+.Morado:active{
+    background-color: RGB(139, 72,191,70%);
+}
+
+/* Footer */
+
+footer{
+    background-color: #1E1E26;
+    display: flex;
+    color: #FAFAFA;
+    flex-direction: column;
+    padding: 32.5px 50px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilos article footer */
+
+.articleFooter{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    padding: 12.5px 0px;
+}
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+/* Estilos del menu */
+
+.menuFooter{
+    display: flex;
+    justify-content: center;
+    padding: 12.5px;
+    order:-1;
+    width: 100%;
+}
+
+.menuFooter ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menuFooter li{
+    padding: 5px;
+    list-style-type: none;
+    text-align:left;
+    width: 50%;
+}
+
+.menuFooter a{
+    text-decoration: none;
+}
+
+.menuFooter a:visited, a:visited {
+    color: white;
+}
+
+/* Estilos formulario */
+footer form{
+    order:-2;
+    padding: 12.5px 0px;
+}
+
+#inbox{
+    border: none;
+    border-radius: 50px;
+    min-width: 201px;
+    padding: 10px;
+    width: 308px;
+}
+
+#go{
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 63px;
+}
+
+/* Estilo parrafo pie */
+footer p{
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: bold;
+    padding: 12.5px;
+}
+
+/* Establece el elemento para que aparezca cuando el ancho de la pantalla sea mayor a 900px */
+
+@media(min-width:900px){
+
+    /* Header para pantalla escritorio*/
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        }
+
+    .buscarHeader{
+        width: 5%;
+        height: 30px;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    .buscador {
+        width: 40%;
+        height: 40px;
+        border: 2px solid #ccc;
+        border-radius: 10%;
+        background-image: "imagenes/lupa.jpg";
+        background-position: 95% center;
+      }
+    .lupaImg{
+        width: 4%;
+        height: 30px;
+        background-color: white;
+    }
+    .lupaImg img{
+        width: 50%;
+        height: 60%;
+    }
+      
+
+    .item-nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .item-nav a{
+        color: #242E52;
+        font-weight: 700;
+        padding: 14px;
+        text-decoration: none;
+    }
+
+    .item-nav a:active{
+        color: RGB(36,46,82,60%);
+    }
+
+    .navHambur{
+        display: none;
+        }
+
+/* container 1 para pantalla escritorio*/
+    .container1{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 86px 180px ;
+    }
+    .deportista{
+        padding-right: 50px;
+        padding-bottom: 0px;
+        width: 540px;
+    }
+
+    .live{
+        padding-left: 50px;
+        width: 50%;
+    }
+
+    /* Container 2 y 5 para pantalla escritorio */
+    /* container2 */
+
+    .parrafoMovil{
+        display: none;
+    }
+    .parrafoEscritorio{
+        display: block;
+    }
+
+    .container2, .container5{
+        align-items: center;
+        background: #8B48BF;
+        display: flex;
+        flex-direction: row;
+        height: 168px;
+        justify-content: space-evenly;
+        padding: 0px 40px; 
+        
+    }
+    .container2 h2{
+        height: 88px;
+        line-height: 120%;
+        width: 450px;
+    }
+    .parrafoEscritorio{ 
+        height: 88px;
+        width: 450px;
+    }
+
+   /*  Container 5 */
+
+    .container5{
+        height: 224px;
+        justify-content: space-between;
+        padding: 0px 180px;
+        
+    }
+    .container5 h2{
+        font-weight: bold;
+        font-size: 2.4rem;
+        height: 96px;
+        line-height: 48px;
+        text-align: left;
+        width: 393px;
+    }
+
+    .goFor{
+        background: white;
+        color: #8B48BF;
+    }
+        /* Container 3  para pantalla escritorio */
+    .container3{
+        background: rgba(250, 250, 250, 1);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0px;
+        padding: 40px;
+    }
+    
+    .container3 article{
+        width: 50%;
+        padding: 12px 25px;
+    }
+    
+    .container3 h3{
+        background: rgba(250, 250, 250, 1);
+        padding: 10px 10px 10px 88px;
+        margin: 0px;
+    }
+    
+    .texto{
+        padding-left: 88px;
+    }
+
+    /* container 4 para pantalla escritorio*/
+    
+    .ocultar{
+        display: block;
+    }
+
+    .containerAvatares{
+        display: flex;
+    }
+    
+    /* Footer para pantalla escritorio*/
+    Footer{
+        align-items: stretch;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 43px 160px ;
+    }
+    /* Articulo footer */
+
+    .articleFooter{
+        align-items: flex-start;
+        display: flex;
+        order: -1;
+        justify-content: space-between;
+        width: 20%;
+    }
+
+    .redes{
+        order:-1;
+        padding-bottom: 0;
+    }
+
+    .redes img{
+        margin:6px;
+    }
+
+    /* Menu */
+    .menuFooter{
+        padding: 0px;
+        width: 50%;
+       
+    }
+
+    /* Formulario */
+
+    Footer form{
+        order:0;
+        text-align: end;
+        width: 30%;
+    }
+    
+    #inbox{
+        width: 201px;
+    }
+
+    /* Parrafo footer */
+    footer p{
+        display: inline;
+        padding: 0px;
+        text-align: right;
+    }
+}
