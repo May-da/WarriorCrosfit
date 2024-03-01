@@ -6,6 +6,7 @@
     margin:0%;
     padding: 0%;
 }
+
 .containerImg {
     background-color: #ED3030; /* Fondo rojo para el contenedor */
     display: flex;
@@ -36,13 +37,50 @@
     display: block;
   }
   .sidebar a:hover {
-    background-color: #ddd;
+    background-color: #E3E3E3;
     color: black;
   }
-.main {
-    margin-left: 200px; /* Mismo ancho que el sidebar */
-    padding: 20px;
-  }
+/* ---------------------------el main de home----------------------- */  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #E3E3E3;
+}
+
+.botones-container {
+    margin-left: 25%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-gap: 60px; /* Espacio entre botones */
+    margin-bottom: 1%;
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333; /* Cambiar color de fondo al pasar el mouse */
+    color: white;
+}
+button:active {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3); /* Sombra interna */
+}
+
 /*-----------------------------------------------------------------------------------*/  
 /* Oculta el elemento por defecto */
 .contactoHeader{
