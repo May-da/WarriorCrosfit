@@ -11,14 +11,15 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primario
 
-Violeta: #8B48BF
-Celeste brillante: #3CDDF3
+Gray89: #E3E3E3
+Gray20:  #333
 
 ### Neutro
 
-Azul grisáceo oscuro: #1E1E26
-Azul muy oscuro: #232851
-Variante gris claro: rgb (249, 249, 249)
+#ed3030
+#ccc
+Blabco
+Negro
 
 ## Tipografia
 
@@ -27,7 +28,7 @@ Variante gris claro: rgb (249, 249, 249)
 - Font size: 16px
 
 ### Font
-
+Inter
 - Family: [Be Vietnam Pro](https://fonts.google.com/specimen/Be+Vietnam+Pro)
 - Weights: 400, 500, 700
 
