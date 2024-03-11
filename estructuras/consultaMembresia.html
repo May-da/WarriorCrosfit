@@ -1,4 +1,4 @@
-section-consultarUsuario<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,30 +18,41 @@ section-consultarUsuario<!DOCTYPE html>
             <a href="#">Usuarios</a>
             <a href="#">Pagos</a>
             <a href="#">Salir</a>
-         </div>
+        </div>
     </div>
-    <header class="header-consultarUsuario">
-        <h1 class="titulo-CosultarUsuario">Consultar Cliente</h1>
-        
-    <nav class="navHambur">
-        <span></span>
-        <span></span>
-        <span></span>
-    </nav>
+    <main>
+        <header class="header-consultaMembresia">
 
-</header>
-    <main class="main-consultarUsuario ">
-        
-        <section class="section-consultarUsuario">
-            <div class="div-consultarUsuario">
-                <label for="busqueda-cosultarUsuario"><strong>Digite número de identificacion:</strong></label>
-                <input type="text" id="busqueda" name="busqueda" placeholder="Ingrese su búsqueda">
+            <!--  accesibilidad -->
+            <div class="contenedor-accesibilidad">
+                <button id="accesibilidad-btn" aria-label="Opciones de accesibilidad">
+                    <img src="/imagenes/accesibilidad.png" alt="Icono de accesibilidad">
+                </button>
+                <!-- Menú de opciones de accesibilidad (inicialmente oculto) -->
+                <div id="accesibilidad-menu" aria-hidden="true">
+                    <!-- Aquí van las opciones de accesibilidad -->
+                    <ul>
+                        <li><a href="#">Aumentar tamaño de texto</a></li>
+                        <li><a href="#">Cambiar contraste</a></li>
+                        <li><a href="#">Activar texto a voz</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="div-BtnConsultarUsuario">
-                <button id="btn-borrar">Consultar</button>
-                <button id="btn-consultar">Limpiar</button>
+            <div class= "titulo-consultaMembresia">
+                <h1>Consulta de Membresia</h1>
             </div>
+
+        </header>
+    <h3 class="subtitulo-consultaMembresia">Seleccione la opcion a consultar y de click en ver detalle</h3>
+   <!--  <div class="div-container-botones"> -->
+        <section class="button-consultarMembresia">
+                <button>Membresia Activa</button>
+                <button>Membresia Inactiva</button>
         </section>
+        <section class="bottom-detalle">
+                <button>Ver Detalle</button>
+        </section>
+  <!--   </div> -->
     </main>
     <!-- <footer>
         <article class="articleFooter">
@@ -56,5 +67,6 @@ section-consultarUsuario<!DOCTYPE html>
         </article>
         <p>Copyright 2020. All Rights Reserved</p>
     </footer> -->
+    <script src="/Js/script.js"></script>
 </body>
 </html>

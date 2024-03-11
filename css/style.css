@@ -10,6 +10,38 @@ body{
     background-color:  #E3E3E3;
 }
 
+/*--------------------------------------Accesibilidad---------------------------------------*/
+
+#accesibilidad-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#accesibilidad-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#accesibilidad-menu li {
+    margin-bottom: 5px;
+}
+
+#accesibilidad-menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+#accesibilidad-menu li a:hover {
+    background-color: white;
+}
+/*----------------------------------------------home--------------------------------------------*/
+
 .containerImg {
     background-color: #ED3030; /* Fondo rojo para el contenedor */
     display: flex;
@@ -50,7 +82,7 @@ body{
     background-color: #E3E3E3;
     color: black;
   }
-/* ---------------------------el main de home----------------------- */  
+/* ---------------------------el main de home----------------------- */
 .main-home {
     display: flex;
     flex-direction: column;
@@ -91,7 +123,7 @@ button:active {
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3); /* Sombra interna */
 }
 
-/*----------------------------------Registro-------------------------------------------------*/
+/*----------------------------------Registro Usuario-------------------------------------------------*/
 .section-registro {
     max-width: 600px;
     margin: 10%;
@@ -109,9 +141,7 @@ button:active {
 .h2-registro {
     text-align: center;
 }
-.form-group {
-    margin-bottom: 15px;
-}
+
 
 label {
     display: block;
@@ -127,6 +157,7 @@ label {
 .button-registro {
     padding: 10px 20px;
     margin-right: 10px;
+    margin-top: 50px;
     background-color: #333;;
     color: white;
     border: none;
@@ -183,301 +214,230 @@ label {
     margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-/* Oculta el elemento por defecto */
-.contactoHeader{
-    border: none;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
-    display: none;
-}
-
-.item-nav{
-    display: none;
-    
-}
-
-/* estilos para dispositivos de 900 hacia abajo */
-/* elementos del header */
-
-
-.navHambur{
-    border-color: black;
+/*----------------------------------Registro Pago-------------------------------------------------*/
+.header-registroPago{
     display: flex;
-    flex-direction: column;
-}
-.navHambur span{
-    background: black;
-    height: 3px;
-    margin: 12%;
-    width: 46px;
-}
-/* container1 */
-
-.container1{
-    padding: 24px 40px 40PX;
+    justify-content: space-between;
+    padding-left: 20%;
 }
 
-.deportista{
+.section-pago {
+    max-width: 600px;
+    margin: 10%;
+    padding: 20px;
+    border: 1px solid  #E3E3E3;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.h1-registroPago {
+    text-align: center;
+}
+
+
+label {
     display: block;
-    margin: 0 auto;
-    padding-bottom: 100px;
-    width: 400px;
+    margin-bottom: 5px;
 }
 
-h1{
-    color: #242E53;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 1.25em;
-}
-
-.live{
-    align-items: end;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-}
-
-.live p{
-    font-size: 18px;
-    font-weight: 700;    margin: 20px 0px 20px 0px;
-}
-
-.contacto1, .contactoHeader, .More, .goFor{
-    background-color:#8B48BF;
-    border-radius: 50px;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    width: 134px;
-}
-/* Container 2 y 5*/
-
-.container2, .container5{
-    background-color: #3CDDF3 ;
-    color: white;
-}
-
-.parrafoEscritorio{
-    display: none;
-}
-
-.container2{
-    display: flex;
-    flex-direction: column;
-    height: 306px;
-    justify-content: space-between;
-    padding: 40px 20px;
-}
-.container2 h2{
-    font-size: 2.25em;
-    font-weight: 700px;
-    line-height: 1.25em;
-}
-
-.container2 p{
-    padding-right: 20px;
-}
-
-/* .container5 */
-.container5{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-    height: 366px;
-    justify-content: space-around;
-    padding: 40px 50px;   
-    text-align: center;
-
-}
-
-.container5 h2{
-    font-size: 40px;
-}
-
-.goFor{
-    background-color: #232C50;
-    color: white;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-/* Container 3 */
-
-.container3{
-    color: #B3B2B7;
-    margin: 65px 0px 65px 34px;
-}
-
-.numeracion{
-    background-color:hsl(274, 48%, 52%);
-    color: white;
-    border-radius: 30px;
-    height: 43px;
-    position: absolute;
-    padding: 10px;
-    text-align: center;
-    width: 70px;
-    z-index: 2;
-}
-
-.container3 h3{
-    background-color:RGB(139, 72,191,30%);
-    color: #323851;
-    height: 43px;
-    margin-left: 35px;
-    padding: 10px;
-    padding-left: 53px;
-    
-}
-
-.texto{
-    margin: 21px 17px 10px 0px;
-    padding: 10px;
-}
-
-/* Container 4 */
-
-.container4{
-    color: #B9B9C1;
-    margin: 58px 18px;
-    text-align: center;
-}
-
-/* ocultar la dos ultimas tarjetas */
-.ocultar{
-    display:none;
-}
-
-/* Titulo */
-
-.container4 h2{
-    color: #242E53;
-    font-size: 40px;
-    padding-bottom: 20px;
-}
-
-.container4 h4{
-    color: #3F4868;
-    padding-bottom: 21px;
-}
-
-.fotoPerfil{
-    bottom: 33px;
-    border-radius: 50%;
-    height: 50px;
-    position: relative;
-    width: 50px;
-}
-
-.container4 article{
-    background-color: #FAFAFA;
-    margin: 45px 0px;
-    padding: 10px;
-}
-
-/* Boton */
-.Morado:active{
-    background-color: RGB(139, 72,191,70%);
-}
-
-/* Footer */
-
-footer{
-    background-color: #1E1E26;
-    display: flex;
-    color: #FAFAFA;
-    flex-direction: column;
-    padding: 32.5px 50px;
-    text-align: center;
+.input-registroPago, select {
     width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button-registroPago {
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: #333;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/* Estilos article footer */
-
-.articleFooter{
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    padding: 12.5px 0px;
+.button-registroPago:hover {
+    background-color: #E3E3E3;
+    color: black;
 }
 
-.redes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 25px;
-}
+/*----------------------------------Conultar Usuario------------------------------------------------*/
 
-/* Estilos del menu */
-
-.menuFooter{
+.header-consultarUsuario {
     display: flex;
     justify-content: center;
-    padding: 12.5px;
-    order:-1;
-    width: 100%;
-}
-
-.menuFooter ul{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.menuFooter li{
-    padding: 5px;
-    list-style-type: none;
-    text-align:left;
-    width: 50%;
-}
-
-.menuFooter a{
-    text-decoration: none;
-}
-
-.menuFooter a:visited, a:visited {
-    color: white;
-}
-
-/* Estilos formulario */
-footer form{
-    order:-2;
-    padding: 12.5px 0px;
-}
-
-#inbox{
-    border: none;
-    border-radius: 50px;
-    min-width: 201px;
-    padding: 10px;
-    width: 308px;
-}
-
-#go{
-    background-color: #8B48BF;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 10px;
     text-align: center;
-    width: 63px;
+    margin-bottom: 12%;
+}
+.section-consultarUsuario{
+    margin-left: 500px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.div-consultarUsuario{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+
+}
+.div-consultarUsuario label{
+    width: 80%;
+    font-size: 28px;
+}
+.div-consultarUsuario input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.div-BtnConsultarUsuario button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #333;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+.titulo-CosultarUsuario {
+    margin-bottom: 10px;
 }
 
-/* Estilo parrafo pie */
-footer p{
-    color: #8C8C94;
-    font-size: 12.5px;
-    font-weight: bold;
-    padding: 12.5px;
+/*----------------------------------Consultar Membresia------------------------------------------------*/
+
+.header-consultaMembresia {
+   display: flex;
+   justify-content: space-between;
+   padding-right: 0px;
+   padding-left: 40%;
+}
+.titulo-consultaMembresia {
+    color: black;
+}
+.subtitulo-consultaMembresia {
+    margin-block: 7%;
+    margin-left: 15%;
+    text-align: center;
+}
+.button-consultarMembresia {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 33%;
+}
+.button-consultarMembresia button{
+    text-align: center;
+    color: white;
+    width: 377px;
+    height: 108px;
+    background-color: #333;
+    border-radius: 5px; /* Bordes redondeados */
+}
+.button-consultarMembresia button:hover {
+    background-color: white; /* Cambiar color de fondo al pasar el mouse */
+    color: #333;
+}
+.button-consultarMembresia button:active {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3); /* Sombra interna */
+}
+.bottom-detalle {
+    margin-left: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom-detalle button{
+    background-color: #333;
+    border-radius: 5px; /* Bordes redondeados */
+    color: white;
+    margin-top: 4%;
+    width: 240px;
+    height: 58px;
+}
+.bottom-detalle button:hover {
+    background-color: white; /* Cambiar color de fondo al pasar el mouse */
+    color: #333;
+}
+.bottom-detalle button:active {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3); /* Sombra interna */
+}
+
+/*-------------------------------------- Membresia Activa e inactiva-----------------------------------------------*/
+.main-menbresiActiva{
+    margin-left: 300px;
+}
+
+.conteiner-membresiasActivas {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 15%;
+    padding: 4%;
+}
+
+.subtitutlos-membresiActiva {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subtitutlos-membresiActiva h3 {
+    margin: 0;
+    padding: 5%;
+}
+
+.membresiActiva {
+    background-color: #E3E3E3;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 2%;
+}
+.membresiActiva div{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.membresiActiva img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.membresiActiva h5 {
+    margin: 0;
+}
+/*-------------------------------------- Evio Notificación-----------------------------------------------*/
+
+.conteiner-envioNotificacion{
+    width: 60%;
+    margin: 10%;
+}
+.buscarNotificacion{
+    display: flex;
+    justify-content: space-between;
+}
+.buscarNotificacion label{
+    width: 50%;
+    font-size: 125%;
+    
+}
+
+.buscarNotificacion input{
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
 /* Establece el elemento para que aparezca cuando el ancho de la pantalla sea mayor a 900px */
