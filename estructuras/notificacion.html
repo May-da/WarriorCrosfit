@@ -13,10 +13,11 @@
             <img src="/imagenes/logoWarrior.jpeg" alt="logo">
         </div>
         <div >
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de Nosotros</a>
-            <a href="#">Usuarios</a>
-            <a href="#">Pagos</a>
+            <a href="/estructuras/home.html">Inicio</a>
+            <a href="/estructuras/conulta_usuario.html">Usuarios</a>
+            <a href="/estructuras/registroPago.html">Pagos</a>
+            <a href="/estructuras/consultaMembresia.html">Consulta de Membresias</a>
+            <a href="/estructuras/notificacio.html">Enviar Notificaciones</a>
             <a href="#">Salir</a>
         </div>
     </div>
@@ -48,7 +49,7 @@
                 <label for="numeroEnvio"><b>Digite número de identificacion:</b></label>
                 <input class="input-identificacion"  type="text" id="numeroEnvio" name="numeroEnvio" required />
             </div>
-            <form id="notification-form">
+            <form class ="notification-form">
                 <label for="message">Mensaje:</label><br>
                 <textarea id="message" name="message" rows="4" cols="50" placeholder="Ingrese su mensaje aquí... " required></textarea><br>
                 <button type="submit">Enviar</button>

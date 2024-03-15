@@ -13,10 +13,11 @@
             <img src="/imagenes/logoWarrior.jpeg" alt="logo">
         </div>
         <div >
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de Nosotros</a>
-            <a href="#">Usuarios</a>
-            <a href="#">Pagos</a>
+            <a href="/estructuras/home.html">Inicio</a>
+            <a href="/estructuras/conulta_usuario.html">Usuarios</a>
+            <a href="/estructuras/registroPago.html">Pagos</a>
+            <a href="/estructuras/consultaMembresia.html">Consulta de Membresias</a>
+            <a href="/estructuras/notificacion.html">Enviar Notificaciones</a>
             <a href="#">Salir</a>
          </div>
     </div>
@@ -38,31 +39,26 @@
 
     </header>
         <section class="botones-container">
-            <button class="button-home">Registro de Usuario</button>
-            <button class="button-home">Consultar Usuario</button>
-            <button class="button-home">Perfil del Usuario</button>
-            <button class="button-home">Registro de Pagos</button>
-            <div class="contenido-central">
+            <button class="button-home" onclick="window.location.href='/estructuras/registroUsuario.html'">Registro de Usuario</button>  
+            <button class="button-home" onclick="window.location.href='/estructuras/conulta_usuario.html'">Consultar Usuario</button>  
+            <button class="button-home" onclick="window.location.href='/estructuras/registroPago.html'">Registro de Pagos</button>
+           <!--  <div class="contenido-central">
                 <img src="/imagenes/logoWarrior.jpeg" alt="Imagen" width="200px" height="200px">
-            </div>
-            <button class="button-home">Consulta de Membresias</button>
-            <button class="button-home">Membresias Activas</button>
-            <button class="button-home">Membresias Inactivas</button>
-            <button class="button-home">Enviar Notificaciones</button>
+            </div> -->
+          <!--   <button class="button-home" onclick="window.location.href='/estructuras/consultaMembresia.html'">Consulta de Membresias</button>
+ -->        <button class="button-home" onclick="window.location.href='/estructuras/membresiaActiva.html'">Membresias Activas</button>
+            <button class="button-home" onclick="window.location.href='/estructuras/membresiaInactiva.html'">Membresias Inactivas</button>
+            <button class="button-home" onclick="window.location.href='/estructuras/notificacion.html'">Enviar Notificaciones</button>
         </section>
     </main>
-    <!-- <footer>
+    <footer>
         <article class="articleFooter">
-            <img class="logoFooter" src="imagenes/logoFooter.svg" alt="LogoFooter">
             <div class="redes">
-                <img src="imagenes/icon-facebook.svg" alt="Ícono de Facebook">
-                <img src="imagenes/icon-youtube.svg" alt="Ícono de Youtube">
-                <img src="imagenes/icon-twitter.svg" alt="Ícono de Twitter">
-                <img src="imagenes/icon-pinterest.svg" alt="Ícono de Pinterest">
-                <img src="imagenes/icon-instagram.svg" alt="Ícono de Instagram">
+                <img src="/imagenes/2168281.png" alt="Ícono de Facebook" width="40px ">
+                <img src="/imagenes/instagram.jpg" alt="Ícono de instagram" width="40px" >
+                <img src="/imagenes/youtube.png" alt="Ícono de Youtube">
             </div>
         </article>
-        <p>Copyright 2020. All Rights Reserved</p>
-    </footer> -->
+    </footer>
 </body>
 </html>
