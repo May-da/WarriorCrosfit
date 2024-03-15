@@ -93,6 +93,7 @@ body{
 }
 
 .botones-container {
+    margin-top: 100px;
     margin-left: 25%;
     width: 70%;
     display: grid;
@@ -418,6 +419,7 @@ label {
 .membresiActiva h5 {
     margin: 0;
 }
+
 /*-------------------------------------- Evio Notificación-----------------------------------------------*/
 
 .conteiner-envioNotificacion{
@@ -439,6 +441,87 @@ label {
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+
+#notification-form {
+    /* Adjust styling as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the label */
+  .notification-form label {
+    display: block; /* Display on a new line */
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the textarea */
+  .notification-form textarea {
+    width: 100%; /* Make it occupy full width */
+    resize: vertical; /* Allow vertical resizing */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the button */
+  .notification-form button {
+    background-color: #333; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable behavior */
+  }
+/*-------------------------------------- Evio Notificación-----------------------------------------------*/
+
+footer{
+    margin-left: 300px;
+}
+
+@keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .articleFooter {
+    animation: aparecer 0.5s ease-in-out;
+  }
+
+.logoFooter {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logoFooter:hover {
+    transform: translateY(-10px);
+  }
+  .notification-form button:hover {
+    background-color:#ccc ;
+    color: black;
+  }
+
+
+  .redes img {
+    transition: all 0.3s ease-in-out;
+    opacity: 0.7;
+  }
+  
+  .redes img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+
+
+
 
 /* Establece el elemento para que aparezca cuando el ancho de la pantalla sea mayor a 900px */
 
@@ -501,25 +584,7 @@ label {
         }
 
 /* container 1 para pantalla escritorio*/
-    .container1{
-        align-items: center;
-        display: flex;
-        justify-content: space-evenly;
-        padding: 86px 180px ;
-    }
-    .deportista{
-        padding-right: 50px;
-        padding-bottom: 0px;
-        width: 540px;
-    }
-
-    .live{
-        padding-left: 50px;
-        width: 50%;
-    }
-
-    /* Container 2 y 5 para pantalla escritorio */
-    /* container2 */
+    
 
     .parrafoMovil{
         display: none;
@@ -528,82 +593,12 @@ label {
         display: block;
     }
 
-    .container2, .container5{
-        align-items: center;
-        background: #8B48BF;
-        display: flex;
-        flex-direction: row;
-        height: 168px;
-        justify-content: space-evenly;
-        padding: 0px 40px; 
-        
-    }
-    .container2 h2{
-        height: 88px;
-        line-height: 120%;
-        width: 450px;
-    }
+   
     .parrafoEscritorio{ 
         height: 88px;
         width: 450px;
     }
 
-   /*  Container 5 */
-
-    .container5{
-        height: 224px;
-        justify-content: space-between;
-        padding: 0px 180px;
-        
-    }
-    .container5 h2{
-        font-weight: bold;
-        font-size: 2.4rem;
-        height: 96px;
-        line-height: 48px;
-        text-align: left;
-        width: 393px;
-    }
-
-    .goFor{
-        background: white;
-        color: #8B48BF;
-    }
-        /* Container 3  para pantalla escritorio */
-    .container3{
-        background: rgba(250, 250, 250, 1);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin: 0px;
-        padding: 40px;
-    }
-    
-    .container3 article{
-        width: 50%;
-        padding: 12px 25px;
-    }
-    
-    .container3 h3{
-        background: rgba(250, 250, 250, 1);
-        padding: 10px 10px 10px 88px;
-        margin: 0px;
-    }
-    
-    .texto{
-        padding-left: 88px;
-    }
-
-    /* container 4 para pantalla escritorio*/
-    
-    .ocultar{
-        display: block;
-    }
-
-    .containerAvatares{
-        display: flex;
-    }
-    
     /* Footer para pantalla escritorio*/
     Footer{
         align-items: stretch;
@@ -647,9 +642,6 @@ label {
         width: 30%;
     }
     
-    #inbox{
-        width: 201px;
-    }
 
     /* Parrafo footer */
     footer p{
